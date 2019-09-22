@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f24b24d4-aa35-4720-b91b-4a9d37eaa6b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Error.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Error.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +36,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -57,8 +58,8 @@
       <recent name="$PROJECT_DIR$/src/development/imagesdev" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -99,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1569078671821</updated>
       <workItem from="1569078673290" duration="14511000" />
-      <workItem from="1569147874536" duration="15373000" />
+      <workItem from="1569147874536" duration="15823000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit to GitHub">
       <created>1569179536477</created>
@@ -108,7 +109,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569179536477</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added custom 404 page">
+      <created>1569190504771</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569190504771</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added custom 404 page">
+      <created>1569190573662</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569190573663</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +147,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit to GitHub" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit to GitHub" />
+    <MESSAGE value="Added custom 404 page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added custom 404 page" />
   </component>
 </project>
