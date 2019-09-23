@@ -8,17 +8,18 @@ import {Route,Switch} from 'react-router-dom';
 import Navbar from './components/Navbar';
 
 function App() {
-  return (
+    return (
     <>
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route exact path="/products" component={Products} />
         <Route exact path="/products/" component={Products} />
         <Route exact path="/products/:slug" component={SingleProduct} />
         <Route component={Error} />
       </Switch>
     </>
-  );
+    );
 }
 
 export default App;

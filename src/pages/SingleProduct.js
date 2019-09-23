@@ -12,7 +12,6 @@ class SingleProduct extends Component {
     }
     static contextType = AppContext;
     //componentDidMount() { in case you need a specific API call for this data}
-
     render() {
         const {getProduct} = this.context;
         const product = getProduct(this.state.slug);

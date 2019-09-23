@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 //import logo from '../images/logo.png';
 import {FaBars} from 'react-icons/fa';
-import {Link} from 'react-router-dom';
+import {Link,NavLink} from 'react-router-dom';
 
 class Navbar extends Component {
     state={isOpen:false};
@@ -20,8 +20,8 @@ class Navbar extends Component {
                         </button>
                     </div>
                     <ul className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/products">Products</Link></li>
+                        <li><NavLink exact to="/" activeStyle={{color:"#900"}}>Home</NavLink></li>
+                        <li><NavLink exact to="/products" activeStyle={{color:"#900"}}>Products</NavLink></li>
                     </ul>
                 </div>
             </nav>

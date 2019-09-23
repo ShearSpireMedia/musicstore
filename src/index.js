@@ -4,10 +4,10 @@ import {BrowserRouter as Router} from "react-router-dom";
 import {DataProvider} from "./context";
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+let prefix = window.location.hostname.includes('shearspiremedia.com') ? "/demos/musicstore" : "/";
 ReactDOM.render(
     <DataProvider>
-        <Router>
+        <Router basename={prefix}>
             <App />
         </Router>
     </DataProvider>, document.getElementById('root')

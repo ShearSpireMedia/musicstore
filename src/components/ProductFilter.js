@@ -15,9 +15,9 @@ function ProductFilter({products}) {
         }
     );
     const context = useContext(AppContext);
-    const {handleChange,type,price,minPrice,maxPrice,sortField,sortDirection} = context;
+    const {handleChange,type,price,minPrice,maxPrice,sortField,sortDirection,sortedProducts} = context;
     return (<section className="filter-container">
-        <Title title="Search Instruments" />
+        <Title title={'Filter Instruments (' + sortedProducts.length + ')'} />
         <form className="filter-form">
             <div className="form-group">
                 <label htmlFor="type">instrument type</label>
