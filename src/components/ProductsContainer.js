@@ -9,7 +9,7 @@ function ProductsContainer({context}) {
     if (loading){
         return <Loading/>
     }
-    console.log(context);
+    //console.log(context);
     return (<>
         <ProductFilter products={products} />
         <ProductList products={sortedProducts} />
